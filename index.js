@@ -2,8 +2,20 @@ var express = require("express");
 var cors = require('cors');
 var app = express();
 const PORT = process.env.PORT;
-
 app.use(cors());
+
+const bodyParser = require('body-parser')
+
+app.use(bodyParser.urlencoded({
+  extended: true
+}))
+
+app.use(bodyParser.json())
+
+app.post('/updatepos', (req, res) => {
+  console.log(req.body.todo)
+})
+
 
 var obj = {'key':'value'};
 
