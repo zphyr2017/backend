@@ -13,17 +13,17 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json())
 
 app.post('/updatepos', (req, res) => {
-  console.log(req.body.todo)
+  console.log(req.body)
 })
 
 
-var obj = {'key':'value'};
+//var obj = {'key':'value'};
 
 // Read Synchrously
 var fs = require("fs");
 
 var content = fs.readFileSync("data.json");
-console.log("Output Content : \n"+ content+"\n"+JSON.stringify(obj));
+//console.log("Output Content : \n"+ content+"\n"+JSON.stringify(obj));
 
 
 
