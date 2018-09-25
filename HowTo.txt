@@ -45,6 +45,7 @@ CLONE FORM GITHUB
 	git clone https://github.com/zphyr2017/frontend.git
 	cd frontend
 	npm install express --save
+	npm install --save data-store
 	npm init
 	npm install
 	heroku create 

@@ -2,6 +2,13 @@ var express = require("express");
 var cors = require('cors');
 var app = express();
 const PORT = process.env.PORT;
+
+const Store = require('data-store');
+const store = new Store({ path: 'lastposition.json' });
+store.set('one', 'two'); 
+console.log(store.data); //=> { one: 'two' }
+console.log(store.get('one'));
+
 app.use(cors());
 
 const bodyParser = require('body-parser')
@@ -13,7 +20,9 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json())
 
 app.post('/updatepos', (req, res) => {
-  console.log(req.body)
+  console.log(req.body);
+  store.clear();
+  store.set('pos', req.body); 
 })
 
 
@@ -32,7 +41,8 @@ app.get('/', function (req, res) {
 });
 
 app.get('/sapr/list.json', function (req, res) {
-  res.send(content);
+  //res.send(content);
+  res.send(store.get('pos'));
 });
 
 
