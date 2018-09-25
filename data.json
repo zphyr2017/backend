@@ -1,12 +1,25 @@
-{
+{{
   "idSAPR":"001",
   "costruttore":"zephyr",
   "configurazione":"multicopter",
   "tipo":"vl/mv",
   "numCostruzioneApr": "0001",
-  "nomeOperatore": "0001",
-  "lat": "44",
+  "nomeOperatore": "zephyr",
+  "lat": "44.1",
   "lng": "12",
-  "alt": "0001",
+  "alt": "100",
   "nomeOperatore": "0001" 
+},
+{
+  "idSAPR":"002",
+  "costruttore":"zephyr",
+  "configurazione":"multicopter",
+  "tipo":"vl/mv",
+  "numCostruzioneApr": "0002",
+  "nomeOperatore": "zephyr",
+  "lat": "44",
+  "lng": "12.1",
+  "alt": "0050",
+  "nomeOperatore": "0001" 
+}
 }
