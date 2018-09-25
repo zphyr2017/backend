@@ -1,5 +1,4 @@
 {
-
   "idSAPR":"001",
   "costruttore":"zephyr",
   "configurazione":"multicopter",
@@ -9,6 +8,5 @@
   "lat": "44",
   "lng": "12",
   "alt": "0001",
-  "nomeOperatore": "0001",
-  
+  "nomeOperatore": "0001" 
 }
