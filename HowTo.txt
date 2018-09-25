@@ -1,0 +1,66 @@
+SETUP
+NPM
+
+npm install angular express body-parser ejs mongojs 
+npm install bootstrap mongodb --save
+npm install -g nodemon
+
+--------------------------------------------------------------------------------------------------------
+GIT
+Installing on Windows
+Just go to http://git-scm.com/download/win 
+
+Setup GIT- Type:
+	$ git config --global user.name "Matteo Turci"
+	$ git config --global user.email amministrazione@zephyraerospace.com
+	$ git config --global core.editor notepad++
+	$ git config --list
+	$ git config user.name
+
+New GIT repository:
+	$ cd .\myApp
+	$ git init
+	$ git *.*
+	$ git commit -m '1.1'
+
+You’ve now got a local git repository !!!!!!
+
+GITHUB
+You’ve now got a local git repository. You can use git locally, like that, if you want. But if you want the thing to have a home on github, do the following.
+ - Go to github
+ - Log in to your account.
+ - Click the new repository button in the top-right. You’ll have an option there to initialize the repository with a README file, but I don’t.
+ - Click the “Create repository” button.
+
+Now, follow the second set of instructions, “Push an existing repository…” :
+	$ git remote add origin git@github.com:zphyr2017/frontend
+		$ git remote set-url origin https://github.com/zphyr2017/frontend.git
+	$ git remote -v
+	$ git pull origin master
+	
+
+
+CLONE FORM GITHUB
+	cd D:\Progetti\bvlos\enavtracker2018
+	git clone https://github.com/zphyr2017/frontend.git
+	cd frontend
+	npm install express --save
+	npm init
+	heroku create 
+	heroku buildpacks:set heroku/nodejs
+	git push heroku master
+	heroku ps:scale web=1
+	heroku open
+	heroku logs --tail
+
+Aggiornare il progetto heroku
+git add .
+git commit -m "Modificato index.js"
+git push heroku master
+
+
+RUN LOCALLY
+npm install
+
+
+	
