@@ -1,25 +1,26 @@
-{{
-  "idSAPR":"001",
-  "costruttore":"zephyr",
-  "configurazione":"helicopter",
-  "tipo":"vl/mv",
-  "numCostruzioneApr": "0001",
-  "nomeOperatore": "zephyr",
-  "lat": "44.1",
-  "lng": "12",
-  "alt": "100",
-  "nomeOperatore": "0001" 
-},
-{
-  "idSAPR":"002",
-  "costruttore":"zephyr",
-  "configurazione":"airplane",
-  "tipo":"vl/mv",
-  "numCostruzioneApr": "0002",
-  "nomeOperatore": "zephyr",
-  "lat": "44",
-  "lng": "12.1",
-  "alt": "0050",
-  "nomeOperatore": "0001" 
-}
-}
+[
+	{
+	  "idSAPR":"001",
+	  "costruttore":"zephyr",
+	  "configurazione":"helicopter",
+	  "tipo":"vl/mv",
+	  "numCostruzioneApr": "0001",
+	  "nomeOperatore": "zephyr",
+	  "lat": "44.202",
+	  "lng": " 12.06206",
+	  "alt": "100",
+	  "nomeOperatore": "0001" 
+	},
+	{
+	  "idSAPR":"002",
+	  "costruttore":"zephyr",
+	  "configurazione":"airplane",
+	  "tipo":"vl/mv",
+	  "numCostruzioneApr": "0002",
+	  "nomeOperatore": "zephyr",
+	  "lat": "44.203",
+	  "lng": " 12.06208",
+	  "alt": "0050",
+	  "nomeOperatore": "0001" 
+	}
+]
