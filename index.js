@@ -1,6 +1,9 @@
 var express = require("express");
+var cors = require('cors');
 var app = express();
 const PORT = process.env.PORT;
+
+app.use(cors());
 
 var obj = {'key':'value'};
 
