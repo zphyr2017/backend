@@ -1,7 +1,7 @@
 {{
   "idSAPR":"001",
   "costruttore":"zephyr",
-  "configurazione":"multicopter",
+  "configurazione":"helicopter",
   "tipo":"vl/mv",
   "numCostruzioneApr": "0001",
   "nomeOperatore": "zephyr",
@@ -13,7 +13,7 @@
 {
   "idSAPR":"002",
   "costruttore":"zephyr",
-  "configurazione":"multicopter",
+  "configurazione":"airplane",
   "tipo":"vl/mv",
   "numCostruzioneApr": "0002",
   "nomeOperatore": "zephyr",
