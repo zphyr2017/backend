@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({
   extended: true
 }))
 
-app.use(bodyParser.json())
+app.use(bodyParser.raw())
 
 app.post('/updatepos', (req, res) => {
   console.log(req.body);
