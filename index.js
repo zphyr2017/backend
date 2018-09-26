@@ -13,7 +13,11 @@ app.use(cors());
 
 const bodyParser = require('body-parser')
 
-app.use(bodyParser.raw())
+app.use(bodyParser.urlencoded({
+  extended: true
+}))
+
+
 
 app.post('/updatepos', (req, res) => {
   console.log(req.body);
